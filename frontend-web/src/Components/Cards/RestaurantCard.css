@@ -1,0 +1,19 @@
+.ResCard {
+    width: 250px !important; 
+    margin-top: 3em !important;
+    margin-bottom: 1em !important;
+    transition: transform .1s;
+}
+
+.NameHeader {
+    height: 40px !important;
+}
+
+.ResCard:hover {
+    transform: scale(1.05);
+    z-index: 5;
+}
+
+#Right {
+    float: right;
+}

@@ -1,0 +1,37 @@
+p {
+    color: white;
+    /* text-align: center; */
+    /* font-size: 20px; */
+}
+
+.text1 {
+    font-size: 22px;
+}
+
+.text2 {
+    font-size: 20px;
+}
+
+#RegisterText {
+    margin-top: 100px;
+}
+
+#Register {
+    display: flex; 
+    align-items: center !important;
+    justify-content: center !important;
+    color: rgb(91, 144, 96);
+}
+
+#LoginSegment {
+    border-top: solid;
+    border-top-color: rgb(19, 16, 16);
+}
+
+/* Large Screens */
+@media screen and (min-width: 846px) {
+    #loginContainer {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}

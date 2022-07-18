@@ -1,0 +1,28 @@
+.loginText {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.loginFormText {
+    width: 100% !important;
+}
+
+.toSignIn {
+    width: 18%;
+}
+
+#LoginButs {
+    display: flex; 
+    align-items: center !important;
+    justify-content: center !important;
+    color: rgb(21, 20, 20);
+    
+   
+}
+
+label {
+    color: rgb(21, 19, 19) !important;
+}
+
+

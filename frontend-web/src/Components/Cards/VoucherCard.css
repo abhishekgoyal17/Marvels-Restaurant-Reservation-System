@@ -1,0 +1,13 @@
+#VoucherContainer {
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+#VoucherContainer:hover {
+    transform: scale(1.1);
+    z-index: 5;
+}
+
+.voucherFont {
+    color: #421805 !important;
+}

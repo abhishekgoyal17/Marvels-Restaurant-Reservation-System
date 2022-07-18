@@ -1,0 +1,87 @@
+.App {
+  /* text-align: center; */
+}
+
+.body {
+  padding-top: 50px;
+  
+}
+
+
+
+.appColor {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  
+}
+
+.button {
+  background-color: #484b4d;
+background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color: rgb(39, 34, 34) !important;
+}
+
+.particles {
+  position: fixed; 
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.footer{
+  margin-top: 20%;
+  position:relative;
+  width: 100%;;
+  text-align: center;
+  padding:10px 5px;
+  background-color: #2d3436;
+background-image: linear-gradient(315deg, #2d3436 20%, #000000 74%);
+}
+
+.footer h4{
+  margin-bottom: 2px;
+  margin-top:30px;
+  font-weight:600;
+  color:#91c2a8
+}
+footer p{
+  margin-bottom: 10px;
+}
+.fab{
+  color:#91c2a8;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.fab:hover{
+  color:rgb(25, 75, 45);
+  
+}
+.icons{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  cursor:pointer;
+  padding:18px 0;
+}
+
+.made{
+  margin:10px;
+}
+
+.food {
+	display: block;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+  margin-top:-100px;
+  
+  margin-bottom: 20px;
+  transition: 2s ease;
+
+} 
+.food :hover{
+	transform:scale(1.05);
+}

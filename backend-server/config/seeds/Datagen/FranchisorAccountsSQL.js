@@ -1,0 +1,55 @@
+const FranchisorAccountsSQL = 
+`
+INSERT INTO FranchiseOwner VALUES ('ClaudieAlimentaccount','Claudie Aliment');
+INSERT INTO FranchiseOwner VALUES ('DenitaRefreshmentaccount','Denita Refreshment');
+INSERT INTO FranchiseOwner VALUES ('JudsonComestiblesaccount','Judson Comestibles');
+INSERT INTO FranchiseOwner VALUES ('KirtonStoresaccount','Kirton Stores');
+INSERT INTO FranchiseOwner VALUES ('PeterMeat and drinkaccount','Peter Meat and drink');
+INSERT INTO FranchiseOwner VALUES ('ArpinLarderaccount','Arpin Larder');
+INSERT INTO FranchiseOwner VALUES ('PeterStoresaccount','Peter Stores');
+INSERT INTO FranchiseOwner VALUES ('YadiraSoul-foodaccount','Yadira Soul-food');
+INSERT INTO FranchiseOwner VALUES ('PressLarderaccount','Press Larder');
+INSERT INTO FranchiseOwner VALUES ('HermannHaute-cuisineaccount','Hermann Haute-cuisine');
+INSERT INTO FranchiseOwner VALUES ('DenitaStoresaccount','Denita Stores');
+INSERT INTO FranchiseOwner VALUES ('PoteeteTableaccount','Poteete Table');
+INSERT INTO FranchiseOwner VALUES ('MoorsComestiblesaccount','Moors Comestibles');
+INSERT INTO FranchiseOwner VALUES ('HuyserStoresaccount','Huyser Stores');
+INSERT INTO FranchiseOwner VALUES ('WarmanMeat and drinkaccount','Warman Meat and drink');
+INSERT INTO FranchiseOwner VALUES ('DeandreCookeryaccount','Deandre Cookery');
+INSERT INTO FranchiseOwner VALUES ('PappanFareaccount','Pappan Fare');
+INSERT INTO FranchiseOwner VALUES ('MoorsFareaccount','Moors Fare');
+INSERT INTO FranchiseOwner VALUES ('WarmanHaute-cuisineaccount','Warman Haute-cuisine');
+INSERT INTO FranchiseOwner VALUES ('ButterfieldMeataccount','Butterfield Meat');
+INSERT INTO FranchiseOwner VALUES ('PushardDietaccount','Pushard Diet');
+INSERT INTO FranchiseOwner VALUES ('DenitaEdiblesaccount','Denita Edibles');
+INSERT INTO FranchiseOwner VALUES ('PechacekMenuaccount','Pechacek Menu');
+INSERT INTO FranchiseOwner VALUES ('WitterEdiblesaccount','Witter Edibles');
+INSERT INTO FranchiseOwner VALUES ('DenishaCuisineaccount','Denisha Cuisine');
+INSERT INTO FranchiseOwner VALUES ('MohammedEatsaccount','Mohammed Eats');
+INSERT INTO FranchiseOwner VALUES ('JacqulineGrubaccount','Jacquline Grub');
+INSERT INTO FranchiseOwner VALUES ('PeterCookingaccount','Peter Cooking');
+INSERT INTO FranchiseOwner VALUES ('TestaniJunk-foodaccount','Testani Junk-food');
+INSERT INTO FranchiseOwner VALUES ('PattiComestiblesaccount','Patti Comestibles');
+INSERT INTO FranchiseOwner VALUES ('ButterfieldEatsaccount','Butterfield Eats');
+INSERT INTO FranchiseOwner VALUES ('JenaeCookeryaccount','Jenae Cookery');
+INSERT INTO FranchiseOwner VALUES ('KetcherCookeryaccount','Ketcher Cookery');
+INSERT INTO FranchiseOwner VALUES ('KristanVictualsaccount','Kristan Victuals');
+INSERT INTO FranchiseOwner VALUES ('DepaulBoardaccount','Depaul Board');
+INSERT INTO FranchiseOwner VALUES ('YadiraComestiblesaccount','Yadira Comestibles');
+INSERT INTO FranchiseOwner VALUES ('WisneskiEdiblesaccount','Wisneski Edibles');
+INSERT INTO FranchiseOwner VALUES ('VilleneuveBoardaccount','Villeneuve Board');
+INSERT INTO FranchiseOwner VALUES ('AdahJunk-foodaccount','Adah Junk-food');
+INSERT INTO FranchiseOwner VALUES ('BalchNutrimentaccount','Balch Nutriment');
+INSERT INTO FranchiseOwner VALUES ('NordinVictualsaccount','Nordin Victuals');
+INSERT INTO FranchiseOwner VALUES ('ArpinBoardaccount','Arpin Board');
+INSERT INTO FranchiseOwner VALUES ('PressBreadaccount','Press Bread');
+INSERT INTO FranchiseOwner VALUES ('VilleneuveSustenanceaccount','Villeneuve Sustenance');
+INSERT INTO FranchiseOwner VALUES ('MimiMenuaccount','Mimi Menu');
+INSERT INTO FranchiseOwner VALUES ('TavaresCookeryaccount','Tavares Cookery');
+INSERT INTO FranchiseOwner VALUES ('BlizzardMeat and drinkaccount','Blizzard Meat and drink');
+INSERT INTO FranchiseOwner VALUES ('BuntinGrubaccount','Buntin Grub');
+INSERT INTO FranchiseOwner VALUES ('BoroughsLarderaccount','Boroughs Larder');
+INSERT INTO FranchiseOwner VALUES ('ZacharyVictualsaccount','Zachary Victuals');
+`
+function getFranchisorAccountsSQL() { return FranchisorAccountsSQL ;}
+module.exports = getFranchisorAccountsSQL;
