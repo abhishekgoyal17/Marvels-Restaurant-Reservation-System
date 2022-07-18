@@ -1,1 +1,1 @@
-# Marvels-Restaurant-Reseravtion-System
+# Marvels-Restaurant-Reservation-System
